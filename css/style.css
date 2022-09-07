@@ -1,0 +1,130 @@
+
+body{
+    background: #E5E5E5;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.img{
+    position: absolute;
+    left: 10%;
+    right: 90%;
+    top: 0%;
+    bottom: 0%;
+    padding-top: 20px;
+}
+
+.container{
+  margin-top: 200px; 
+}
+
+.input-texto{
+    border: none;
+    background-color:#E5E5E5 ;
+    margin: 20px;
+}
+
+.mensaje{
+    border: none;
+    margin: 100px 0 0 30px;
+    background-image: url("../Img/muneco.png");
+}
+
+.orden{
+    font-size: small;
+    text-decoration-color: gray;
+}
+.p1{
+    font-weight: bold;
+    font-style: normal ;
+    color: gray;
+    
+}
+
+.encriptar{
+    width: 328px;
+    height: 67px;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #0A3871;
+    border: none;
+    border-radius: 20px;
+    transition: 0.4s all;
+    cursor: pointer;    
+}
+
+.desencriptar{
+    width: 328px;
+    height: 67px;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+
+.buttons{
+    margin-top: 35px;
+}
+
+.output{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+}
+
+.Copiar{
+    width: 328px;
+    height: 67px;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A3871;
+    background-color: #ffffff;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    transition: 0.4s all;
+    cursor: pointer;
+    margin: 150px 20px 50px 30px;
+    margin-left: 30px;
+}
+
+.input-texto::placeholder{
+position: absolute;
+width: 300px;
+height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+color: #0A3871
+}
+
+p img{
+    margin-top: 1px;
+}
+
+footer{
+    background-color: #0A3871;
+    padding: 80px;
+    text-align: center;
+}
+
+.cont{
+    margin-left:1em ;
+    margin-bottom: 1em;
+    width: 25px;
+}
